@@ -1,6 +1,6 @@
 version: 0.1
 
-enpoints: 
+endpoints: 
   - name: "REST API"
     port: 8080
     type: REST
