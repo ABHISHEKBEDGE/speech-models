@@ -21,7 +21,7 @@ const FileUpload = () => {
       const formData = new FormData();
       formData.append('audio', selectedFile);
       
-      const response = await axios.post('http://127.0.0.1:8000/speech/upload/', formData, {
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/speech/upload/`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
