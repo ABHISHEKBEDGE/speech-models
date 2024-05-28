@@ -167,7 +167,7 @@ python-json-logger==2.0.7
 pytz==2022.1
 pyxdg==0.27
 # pyxnat==1.6.2
-PyYAML==5.4.1
+PyYAML==6.0
 pyzmq==25.1.2
 # rdflib==7.0.0
 referencing==0.34.0
@@ -222,3 +222,6 @@ websocket-client==1.7.0
 # xdg==5
 # xkit==0.0.0
 zipp==1.0.0
+wheel
+setuptools
+Cython
