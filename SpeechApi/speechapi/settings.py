@@ -29,7 +29,7 @@ SECRET_KEY = "953$f4iztom&u+klr57rk54e@v==6l_k!6zry6ko$3#a-vboq!"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["speechapi.onrender.com"]
 
 
 # Application definition
@@ -59,6 +59,7 @@ FILE_UPLOAD_HANDLERS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhitenoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
